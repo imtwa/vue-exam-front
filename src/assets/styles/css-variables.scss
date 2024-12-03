@@ -1,0 +1,41 @@
+/** 全局SCSS变量 */
+:root {
+  --tableBorderColor: rgba(224, 224, 224, 0.6); // 通用表格边框颜色
+  --tableBgColor: #f7f8fa; // 通用表格背景颜色
+  --pageBgColor: #f7f8fa; // 通用页面背景颜色
+  --primaryColor: #134cff; // 全局主题色
+  --primaryHoverColor: #386dff; // 全局hover主题色
+  --primaryActiveColor: #2359b6; // 全局激活主题色
+  --primaryDisabledColor: #cedcf5; // 全局禁用主题色
+  --mainTextColor: #131212; // 正文颜色
+  --infoColor: var(--primaryColor); // 信息颜色
+  --successColor: #06bf7f; // 成功颜色
+  --errorColor: #f01d24; // 失败颜色
+  --warningColor: #fac123; // 警告颜色
+  --warningColor-1: #ff8e42; // 警告颜色
+  --cancelColor: #5e5e66; // 取消颜色
+  --boxBorderColor: rgba(224, 224, 224, 0.2); // 通用边框颜色
+  --boxBorderColor-1: rgba(224, 224, 224, 0.6); // 通用边框颜色
+  --boxBorderColor-2: rgba(224, 224, 224, 0.4); // 通用边框颜色
+  --boxBorderColor-3: #e0e0e0; // 通用边框颜色
+  --colorTextPlaceholder: #8d8e99; // 通用placeholder颜色
+  --colorTextDisabled: #c3c4cc; // 通用placeholder颜色
+  --fontFamily: 'PingFang SC', 'PingFang HK', 'Helvetica Neue', Helvetica, 'Microsoft Yahei',
+    '微软雅⿊', Arial, sans-serif;
+  /****************************** radiogroup ***************************/
+  --radioBgColor: #f7f8fa; // 通用radiogroup背景颜色
+  --radioBorderColor: rgba(224, 224, 224, 0.6); // 通用radiogroup边框颜色
+  --menu-accordion-background: #f0f3f8;
+  --menu-background: #fff;
+  --menu-text: #333;
+  --menu-active-text: var(--el-menu-active-color);
+  --menu-hover: #f6f8ff;
+  --sidebar-logo-background: #fff;
+  --sidebar-logo-color: #333;
+  --border-color: #ebeef5;
+  --menu-title-shadow: #eff1f8;
+
+  // 覆盖重置elementui全局变量
+  --el-color-primary: var(--primaryColor);
+  --el-color-primary-light-3: var(--primaryHoverColor);
+}

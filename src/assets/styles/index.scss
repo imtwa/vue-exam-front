@@ -1,0 +1,30 @@
+@use './css-variables';
+@use './reset';
+@use './global';
+
+// .layout-left.openSidebar {
+//     .sidebar-container {
+//       .logo-container {
+//         border-bottom: 1px solid $border-color;
+//       }
+//       .el-scrollbar {
+//         border-right: 1px solid $border-color;
+//       }
+//       .el-menu{
+//         .el-sub-menu{
+//           border-bottom: 1px solid $border-color;
+//           .el-sub-menu__title:hover{
+//             background-color: $menu-background !important;
+//           }
+//           &.is-opened{
+//             .el-sub-menu__title{
+//               box-shadow: 0px 1px 5px 1px $menu-title-shadow;
+//               position: relative;
+//               background-color: transparent;
+//               z-index: 9;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }

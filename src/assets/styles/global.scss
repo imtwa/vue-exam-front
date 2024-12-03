@@ -1,0 +1,149 @@
+.app-container {
+  padding: 20px;
+}
+
+.search-container {
+  // padding: 18px 0 0 10px;
+  margin-bottom: 10px;
+  background-color: var(--el-bg-color-overlay);
+  // border: 1px solid var(--el-border-color-light);
+  border-radius: 4px;
+  // box-shadow: var(--el-box-shadow-light);
+}
+
+.table-container > .el-card__header {
+  padding: calc(var(--el-card-padding) - 8px) var(--el-card-padding);
+}
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(32 160 255);
+  }
+}
+
+//隐藏代码滚动条
+.scroll-display-none {
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll-display-none::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+// 超出显示点点点
+.dot,
+.dot-1 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dot-2,
+.line-2-dot {
+  display: -webkit-box; //将对象作为弹性伸缩盒子模型显示。
+  -webkit-box-orient: vertical; //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 2; //限制行数
+  text-overflow: ellipsis; //用一个省略号代替超出的内容
+  overflow: hidden; //超出部分隐藏
+}
+.dot-3,
+.line-3-dot {
+  display: -webkit-box; //将对象作为弹性伸缩盒子模型显示。
+  -webkit-box-orient: vertical; //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 3; //限制行数
+  text-overflow: ellipsis; //用一个省略号代替超出的内容
+  overflow: hidden; //超出部分隐藏
+}
+.dot-4,
+.line-4-dot {
+  display: -webkit-box; //将对象作为弹性伸缩盒子模型显示。
+  -webkit-box-orient: vertical; //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 4; //限制行数
+  text-overflow: ellipsis; //用一个省略号代替超出的内容
+  overflow: hidden; //超出部分隐藏
+}
+.dot-5,
+.line-5-dot {
+  display: -webkit-box; //将对象作为弹性伸缩盒子模型显示。
+  -webkit-box-orient: vertical; //从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+  -moz-box-orient: vertical;
+  -webkit-line-clamp: 5; //限制行数
+  text-overflow: ellipsis; //用一个省略号代替超出的内容
+  overflow: hidden; //超出部分隐藏
+}
+
+// 操作三点按钮
+.operate-dot-btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+  width: 25px !important;
+  text-align: center;
+  height: 25px !important;
+  line-height: 25px;
+  border-radius: 4px;
+  &:hover {
+    color: #333;
+    background-color: rgba(19, 18, 18, 0.05);
+  }
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+// 灰色边框
+.border-grey-1 {
+  border: 1px solid var(--boxBorderColor-1);
+}
+
+.border-grey-2 {
+  border: 1px solid var(--boxBorderColor-2);
+}
+
+.border-grey-3 {
+  border: 1px solid var(--boxBorderColor-3);
+}
+
+// 颜色
+.black {
+  color: #000;
+}
+
+.grey-2 {
+  color: #222;
+}
+
+.grey-4 {
+  color: #444;
+}
+
+.grey-6 {
+  color: #666;
+}
+
+.grey-8 {
+  color: #888;
+}
+
+.gray-9 {
+  color: #999;
+}
+
+.red {
+  color: red;
+}
